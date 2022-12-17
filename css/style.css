@@ -1,0 +1,229 @@
+body
+{
+    background-color: #06366d;
+}
+
+/* header */
+.container
+{
+    margin: 0 auto;
+    width: 50%;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+.image
+{
+    float: right;
+    width: 25%;
+    height: 25%;
+    padding: 2px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.image img
+{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid #f3f70f;
+}
+
+p
+{
+    text-align: justify;
+    margin-right: auto;
+}
+
+.fa-brands
+{
+    color:rgb(47, 36, 141);
+}
+
+/* skill */
+.skill h2
+{
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.progress-bar
+{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div
+{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background:#06366d;    ;
+    float: right;
+    margin-top: -8px;
+    margin-right: -16px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html
+{
+    background: #e91ee9;
+    animation: html 1s linear forwards;
+}
+
+.css
+{
+    background: #3b1a6e;
+    animation: css 1s linear forwards;
+}
+
+.js
+{
+    background: #910d44;
+    animation: js 1s linear forwards;
+}
+
+.c
+{
+    background: #530b70;
+    animation: c 1s linear forwards;
+}
+
+.java
+{
+    background: #851029;
+    animation: java 1s linear forwards;
+}
+
+.python
+{
+    background: #0b5fc0;
+    animation: python 1s linear forwards;
+}
+
+.html span
+{
+    border: 1px solid #e91ee9;
+}
+
+.css span
+{
+    border: 1px solid #3b1a6e;
+}
+
+.js span
+{
+    border: 1px solid #910d44;
+}
+
+.c span
+{
+    border: 1px solid #530b70;
+}
+
+.java span
+{
+    border: 1px solid #851029;
+}
+
+.python span
+{
+    border: 1px solid #0b5fc0;
+}
+
+@keyframes html
+{
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes css
+{
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes js
+{
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes c
+{
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes java
+{
+    100%{
+        width: 30%;
+    }
+}
+
+@keyframes python
+{
+    100%{
+        width: 20%;
+    }
+}
+
+/* project */
+.pic
+{
+    width: 100%;
+}
+
+.card
+{
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+h3
+{
+    text-align: center;
+}
+
+/* Educ Bg */
+.school
+{
+    display: inline-block;
+}
+
+.school img
+{
+    height: 30%;
+    width: 30%;
+    padding: 2px;
+}
